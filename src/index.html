@@ -9,7 +9,17 @@
     <title>Vite Template</title>
   </head>
   <body>
-    <h1>Hola</h1>
+    <main class="main">
+      <form class="form">
+        <label for="breeds" class="breeds__label">Selecciona una raza</label>
+        <select name="breeds" id="breeds" class="breeds__select">
+          <option value=""></option>
+        </select>
+        <button class="breeds__btn">Generar imagen</button>
+      </form>
+  
+      <img src="" alt="" id="dog-image">
+    </main>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
