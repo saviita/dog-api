@@ -10,12 +10,15 @@
   </head>
   <body>
     <main class="main">
-      <form class="form">
+      <form class="form" id="form">
         <label for="breeds" class="breeds__label">Selecciona una raza</label>
-        <select name="breeds" id="breeds" class="breeds__select">
-          <option value=""></option>
-        </select>
-        <button class="breeds__btn">Generar imagen</button>
+        <div id="selects">
+          <select name="breeds" id="breeds" class="breeds__select">
+            <option value="">Selecciona</option>
+          </select>
+        </div>
+        
+        <button type="submit" class="breeds__btn" id="btn">Generar imagen</button>
       </form>
   
       <img src="" alt="" id="dog-image">
